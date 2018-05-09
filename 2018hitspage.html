@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>2018 Hits</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+  .navcolor {
+    background-color: rgb(255, 203, 35, 0.7);
+  }
+        body{
+        background-color: black;
+        font-family: georgia;
+      }
+
+div.b {
+    text-align: center;
+}
+
+div.c {
+    text-align: left;}
+
+
+.ovl {
+        opacity: 0;
+      }
+.ovl:hover {
+      opacity: 1;
+      background: rgb(0,0,0,0.5);}
+</style>
+</head>
+
+
+<body>
+  <div class="container">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark navcolor">
+      
+      <a class="navbar-brand" href="home.html"><img src="logo.png"></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#myMenu"
+        aria-controls="navBarNavDropdown"
+        aria-expanded="false"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="myMenu">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="home.html" class="nav-link"><strong>Home</strong></a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a href="#"
+              class="nav-link dropdown-toggle"
+              id="myDropdown"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <strong>Movies</strong>
+            </a>
+              <div class="dropdown-menu">
+                <a href="2018hitspage.html" class="dropdown-item">2018 Hits</a>
+                <a href="classicspage.html" class="dropdown-item">Classics</a>
+                <a href="allmoviespage.html" class="dropdown-item">All Movies</a>
+              </div>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link"><strong>About</strong></a>
+          </li>
+        </ul>
+      </div>
+    
+    </nav>
+  </div>
+  <br>
+  <br>
+  <br>
+
+<!--Some essential references:-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<div class="container text-center">    
+  <h1 style="color: white">2018 Hits</h1>
+  <div class="row">
+    <div class="col-sm-4">
+      <img src="iw2.jpg" class="card-img" style="width:100%" alt="Image">
+        <div class="card-img-overlay ovl">
+          <a href="#"><p class="card-text" style="color: white">Avengers: Infinity War</p></a>
+          <p class="card-text" style="color: white">(2018)</p>
+        </div>
+    </div>
+    <div class="col-sm-4">
+      <img src="bp2.jpg" class="card-img" style="width:100%" alt="Image">
+        <div class="card-img-overlay ovl">
+          <a href="#"><p class="card-text" style="color: white">Black Panther</p></a>
+          <p class="card-text" style="color: white">(2018)</p>
+        </div>
+    </div>
+    <div class="col-sm-4">
+      <img src="ls2.jpg" class="card-img" style="width:100%" alt="Image">
+        <div class="card-img-overlay ovl">
+          <a href="#"><p class="card-text" style="color: white">Love, Simon</p></a>
+          <p class="card-text" style="color: white">(2018)</p>
+        </div>
+    </div>
+  </div>
+</div><br>
+
+</body>
+</html>
